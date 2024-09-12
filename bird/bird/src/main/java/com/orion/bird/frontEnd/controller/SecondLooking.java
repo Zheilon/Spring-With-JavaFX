@@ -1,13 +1,8 @@
-package com.orion.bird.controller;
-import com.orion.bird.OnlyPass;
-import com.orion.bird.Scenes;
+package com.orion.bird.frontEnd.controller;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 import org.springframework.stereotype.Component;
 import java.net.URL;
 import java.util.ResourceBundle;

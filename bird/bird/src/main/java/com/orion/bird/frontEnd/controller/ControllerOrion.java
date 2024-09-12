@@ -1,23 +1,16 @@
-package com.orion.bird.controller;
-import com.orion.bird.OnlyPass;
-import com.orion.bird.Scenes;
-import com.orion.bird.dataBase.repository.IUsersRepository;
-import com.orion.bird.dataBaseLogic.FirstViewDB;
-import com.orion.bird.logicFirstView.LogicOrion;
+package com.orion.bird.frontEnd.controller;
+import com.orion.bird.frontEnd.OnlyPass;
+import com.orion.bird.backEnd.dataBase.dataBaseLogic.FirstViewDB;
+import com.orion.bird.frontEnd.logicFirstView.LogicOrion;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 

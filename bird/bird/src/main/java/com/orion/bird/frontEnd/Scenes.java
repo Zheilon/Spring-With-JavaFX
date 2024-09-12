@@ -1,4 +1,4 @@
-package com.orion.bird;
+package com.orion.bird.frontEnd;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import java.io.IOException;

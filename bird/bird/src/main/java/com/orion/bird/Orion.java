@@ -1,9 +1,9 @@
 package com.orion.bird;
-import com.orion.bird.controller.ControllerOrion;
+import com.orion.bird.frontEnd.controller.ControllerOrion;
+import com.orion.bird.frontEnd.OnlyPass;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;

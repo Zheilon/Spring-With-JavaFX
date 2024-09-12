@@ -1,6 +1,6 @@
-package com.orion.bird.dataBaseLogic;
-import com.orion.bird.dataBase.entities.Users;
-import com.orion.bird.dataBase.repository.IUsersRepository;
+package com.orion.bird.backEnd.dataBase.dataBaseLogic;
+import com.orion.bird.backEnd.dataBase.entities.Users;
+import com.orion.bird.backEnd.dataBase.repository.IUsersRepository;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import org.springframework.beans.factory.annotation.Autowired;

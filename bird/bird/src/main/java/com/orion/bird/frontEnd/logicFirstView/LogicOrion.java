@@ -1,15 +1,13 @@
-package com.orion.bird.logicFirstView;
-import com.orion.bird.OnlyPass;
-import com.orion.bird.Scenes;
-import com.orion.bird.dataBaseLogic.FirstViewDB;
+package com.orion.bird.frontEnd.logicFirstView;
+import com.orion.bird.frontEnd.OnlyPass;
+import com.orion.bird.frontEnd.Scenes;
+import com.orion.bird.backEnd.dataBase.dataBaseLogic.FirstViewDB;
 import javafx.scene.Cursor;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
-import java.security.Key;
 
 public class LogicOrion {
 
