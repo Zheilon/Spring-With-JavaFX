@@ -1,4 +1,4 @@
-package com.orion.bird.frontEnd;
+package com.orion.bird;
 import javafx.stage.Stage;
 
 public class OnlyPass {

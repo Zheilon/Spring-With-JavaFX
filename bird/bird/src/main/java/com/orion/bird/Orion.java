@@ -1,6 +1,5 @@
 package com.orion.bird;
-import com.orion.bird.frontEnd.controller.ControllerOrion;
-import com.orion.bird.frontEnd.OnlyPass;
+import com.orion.bird.controller.ControllerOrion;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

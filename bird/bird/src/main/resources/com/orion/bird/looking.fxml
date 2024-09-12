@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="backGroundAnchor" prefHeight="500.0" prefWidth="400.0" styleClass="anchorePane" stylesheets="@css/firstView.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.orion.bird.frontEnd.controller.ControllerOrion">
+<AnchorPane fx:id="backGroundAnchor" prefHeight="500.0" prefWidth="400.0" styleClass="anchorePane" stylesheets="@css/firstView.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.orion.bird.controller.ControllerOrion">
 
     <children>
         <Label fx:id="label" alignment="CENTER" layoutX="56.0" layoutY="33.0" prefWidth="289.0" styleClass="labelTitle" stylesheets="@css/firstView.css" text="Galería Arte Sicuara" />

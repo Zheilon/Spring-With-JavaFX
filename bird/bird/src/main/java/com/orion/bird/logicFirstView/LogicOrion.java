@@ -1,7 +1,6 @@
-package com.orion.bird.frontEnd.logicFirstView;
-import com.orion.bird.frontEnd.OnlyPass;
-import com.orion.bird.frontEnd.Scenes;
-import com.orion.bird.backEnd.dataBase.dataBaseLogic.FirstViewDB;
+package com.orion.bird.logicFirstView;
+import com.orion.bird.OnlyPass;
+import com.orion.bird.Scenes;
 import javafx.scene.Cursor;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
@@ -10,8 +9,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class LogicOrion {
-
-    FirstViewDB firstViewDB = new FirstViewDB();
 
     //Cierra la escena actual y Crea una nueva.
     public static void changeStageOrionM()

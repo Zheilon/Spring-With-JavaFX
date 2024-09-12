@@ -1,5 +1,5 @@
-package com.orion.bird.backEnd.dataBase.repository;
-import com.orion.bird.backEnd.dataBase.entities.Users;
+package com.orion.bird.repository;
+import com.orion.bird.entities.Users;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

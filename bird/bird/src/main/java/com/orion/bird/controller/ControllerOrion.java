@@ -1,7 +1,6 @@
-package com.orion.bird.frontEnd.controller;
-import com.orion.bird.frontEnd.OnlyPass;
-import com.orion.bird.backEnd.dataBase.dataBaseLogic.FirstViewDB;
-import com.orion.bird.frontEnd.logicFirstView.LogicOrion;
+package com.orion.bird.controller;
+import com.orion.bird.OnlyPass;
+import com.orion.bird.logicFirstView.LogicOrion;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -10,7 +9,6 @@ import javafx.stage.Stage;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Component;
-
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -20,7 +18,6 @@ public class ControllerOrion implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         LogicOrion logicOrion = new LogicOrion();
-        FirstViewDB firstViewDB = new FirstViewDB();
         returned();
         //---------------------------------------------------------------------
         logicOrion.anchorPaneCloseM(anchorClose);

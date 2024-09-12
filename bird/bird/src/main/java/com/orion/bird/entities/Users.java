@@ -1,4 +1,4 @@
-package com.orion.bird.backEnd.dataBase.entities;
+package com.orion.bird.entities;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
