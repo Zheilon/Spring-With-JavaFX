@@ -1,0 +1,61 @@
+/*----------------------- * AnchoPane's * -----------------------*/
+.anchorePane {
+    -fx-background-color: rgba(247, 220, 111, 0.9);
+    -fx-background-radius: 30px;
+}
+
+.anchorPaneClose {
+    -fx-background-color: rgba(231, 76, 60, 0.8);
+    -fx-background-radius: 10px;
+}
+.anchorPaneClose:hover {
+    -fx-background-color: rgba(231, 76, 60, 1);
+}
+
+/*----------------------- * Label's * -----------------------*/
+.labelTitle {
+    -fx-text-fill: rgba(176, 58, 46, 0.9);
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 25px;
+}
+
+.labelForgotPass {
+    -fx-text-fill: rgba(176, 58, 46, 0.7);
+}
+.labelForgotPass:hover {
+    -fx-border-color: rgba(176, 58, 46, 0.7);
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.labelCamposR {
+    -fx-text-fill: red;
+}
+
+/*----------------------- * TextField's * -----------------------*/
+.textField {
+    -fx-background-color: rgba(241, 196, 15, 0.6);
+    -fx-background-radius: 30px;
+    -fx-padding: 0px 15px 0px 15px;
+    -fx-font-size: 15px;
+
+    -fx-alignment: CENTER_LEFT;
+    -fx-prompt-text-fill: rgba(176, 58, 46, 0.6);
+    -fx-text-fill: rgba(176, 58, 46, 0.9);
+}
+
+/*----------------------- * Button's * -----------------------*/
+.button {
+    -fx-background-color: rgba(241, 196, 15, 0.7);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 18px;
+    -fx-text-fill: rgba(176, 58, 46, 0.6);
+
+}
+.button:hover {
+    -fx-background-color: rgba(241, 196, 15, 0.6);
+    -fx-text-fill: rgba(176, 58, 46, 0.9);
+    -fx-border-color: rgba(176, 58, 46, 0.4);
+}
